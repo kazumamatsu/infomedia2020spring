@@ -8,7 +8,7 @@ html{
 }
 body{
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
-    background: rgb(245, 240, 245);
+    background: rgba(67, 67, 67, 0.2);
     margin: 0 5%;
 }
 
@@ -29,7 +29,6 @@ body{
 }
 .intro{
     text-align: center;
-    margin: auto;
     padding: 0 10%;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -42,7 +41,45 @@ body{
     margin-bottom: 50px;
 }
 .item{
-    margin: 0 10px;
+    margin: 20px 0;
+}
+
+
+/*work(1~n)共通ほぼ完成しました
+-----------------------*/
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 10% 0;
+}
+.beforeafter{
+    display: inline-block;
+    padding: 20px;
+}
+.beforeafter .button{
+    font-size: 1.1rem;
+    background: rgb(100, 100, 100);
+    color: rgb(250, 250, 250);
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+.beforeafter .button:hover{
+    background: rgb(200, 200, 200);
+    color: rgb(50, 50, 50);
+}
+hr{
+	height: 2px;
+	background-color: rgb(145, 145, 145);
+}
+.work{
+    margin: 30px 0;
+}
+.movie{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#work01 .end,#work03 .end{
+    visibility: hidden;　/*最初のみボタンを隠す-----------------------*/
 }
 
 
