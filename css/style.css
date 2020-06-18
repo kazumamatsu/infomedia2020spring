@@ -80,8 +80,8 @@ hr{
     margin-bottom: 50px;
     text-align: center;
 }
-#work01 .end,#work03 .end{
-    visibility: hidden;　/*最初のみボタンを隠す-----------------------*/
+.end{
+    visibility: hidden;　/*最初と最後のみボタンを隠す-----------------------*/
 }
 
 
