@@ -18,11 +18,15 @@ body{
 /*index
 -----------------------*/
 .top-contents{
+    text-align: center;
     margin-bottom: 50px;
 }
 .top-contents h1{
     font-size: 3rem;
     padding: 0 20px 15px;
+}
+.top-contents img{
+    width: 80%;
 }
 .top-contents div{
     margin: 0 10%;
