@@ -68,6 +68,9 @@ button:hover{
 .item{
     margin: 20px 0;
 }
+.grid .item img{
+    width: 320px;
+}
 #poster .movies,#other .movies{
     display: none;/*id=poster,otherの時に隠す-----------------------*/
 }
